@@ -1,0 +1,144 @@
+body{
+    background-color: #EDEFEE;
+    font-family: 'Markazi Text',serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+nav li{
+    display: inline-block;
+}
+section{
+    display: flex;
+}
+article{
+    flex: 1;  
+}
+footer{
+    display: flex;
+}
+footer div{
+    flex: 1;
+}
+
+nav ul{
+    height: 40%;
+    background-color: rgb(52, 46, 46);
+    border-radius: 20px;
+    color: white;
+    word-spacing: 30px;
+    padding: 10px 0;
+    margin: 4% 0;
+    
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+}
+/* article img{
+    border-radius: 10px;
+} */
+.container{
+    position: relative;
+     color: white; 
+} 
+.container img{
+    filter: brightness(70%);
+    border-radius: 10px;
+}
+.pasta-heading{ 
+    position: absolute;
+    top: 15%;
+    margin:0 0 0 2%;
+    padding: 0; 
+} 
+.pasta-para{
+    font-size: large;
+    position: absolute;
+    bottom: 2px;
+    margin-left: 2%;
+    max-width: 80%;
+}
+.box{
+    background-color: #FAF0D7;
+    padding:0 2% 2% 2%;
+    border-radius: 12px;
+}
+.features{
+    margin: 8% 0 3% 0;
+    /* display: flex; */
+    gap: 20px;
+}
+.features a{
+    color:#6355DB;
+}
+hr {
+    border: 1px solid grey;
+  }
+footer .copyright{
+    display: block;
+    text-align: right;
+  }
+footer p{
+    margin: 0;
+  }
+.tables{
+    margin:0 20%;
+    text-align: center;
+  }
+  @media(max-width:600px){
+    body{
+       
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+        
+    }
+    section{
+        display: block;
+    }
+    header> img{
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+    nav a{
+        font-size:large ;
+    }
+    .container p{
+        font-size: small;
+    }
+    .container h1{
+        font-size: xx-large;
+    }
+    .container{
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+    .features h2{
+        font-size: xx-large;
+        padding: 1rem 0 0 0;
+    }
+    footer p{
+        font-size: xx-small;
+    }
+    footer hr{
+        border: 1px solid grey;
+        border-bottom: 0;
+    }
+  }
